@@ -1,0 +1,13 @@
+{
+  "_comment": "Copy this file to ibans.json and fill in your own IBANs. Transactions between these accounts will be marked as internal transfers and excluded from income/expense overviews.",
+  "ibans": [
+    "NL00INGB0000000000",
+    "NL00RABO0000000000",
+    "NL00ABNA0000000000"
+  ],
+  "labels": {
+    "NL00INGB0000000000": "ING Betaalrekening",
+    "NL00RABO0000000000": "Rabobank Spaarrekening",
+    "NL00ABNA0000000000": "ABN AMRO Beleggingen"
+  }
+}

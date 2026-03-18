@@ -1,0 +1,17 @@
+node_modules/
+server/node_modules/
+frontend/node_modules/
+frontend/dist/
+server/data/
+*.db
+*.db-shm
+*.db-wal
+.env
+.DS_Store
+
+# Keep input folder tracked but ignore actual transaction files
+input/*.csv
+input/*.CSV
+input/*.txt
+# Keep config folder but allow user to gitignore ibans
+config/ibans.json

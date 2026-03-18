@@ -1,0 +1,119 @@
+{
+  "_comment": "Category mapping rules. Each category has a list of keywords matched against transaction description and counterparty name (case-insensitive). The first matching rule wins. 'type' is either 'income' or 'expense'.",
+  "categories": [
+    {
+      "name": "Salaris",
+      "type": "income",
+      "color": "#22c55e",
+      "keywords": ["salaris", "loon", "salary", "werkgever", "payroll"]
+    },
+    {
+      "name": "Huur",
+      "type": "expense",
+      "color": "#ef4444",
+      "keywords": ["huur", "rent", "verhuurder"]
+    },
+    {
+      "name": "Boodschappen",
+      "type": "expense",
+      "color": "#f97316",
+      "keywords": ["albert heijn", "jumbo", "lidl", "aldi", "plus supermarkt", "dirk", "ah ", "spar ", "supermarkt", "supermarket", "delhaize", "colruyt", "carrefour", "okay ", "bio-planet", "aveve", "makro"]
+    },
+    {
+      "name": "Restaurants & Eten",
+      "type": "expense",
+      "color": "#fb923c",
+      "keywords": ["restaurant", "cafe ", "café", "eetcafe", "mcdonald", "burger king", "kfc", "pizza", "sushi", "thuisbezorgd", "deliveroo", "uber eats", "domino"]
+    },
+    {
+      "name": "Transport",
+      "type": "expense",
+      "color": "#a78bfa",
+      "keywords": ["ns ", "ov-chipkaart", "mivb", "de lijn", "nmbs", "trein", "bus ", "tram ", "metro ", "parking", "tankstation", "shell", "bp ", "total ", "q8", "tinq", "esso", "anwb", "vdlp", "uber ", "bolt "]
+    },
+    {
+      "name": "Auto",
+      "type": "expense",
+      "color": "#8b5cf6",
+      "keywords": ["garage", "autorijschool", "autorijles", "apk", "car wash", "verzekering auto", "wegenbelasting", "autoverzekering"]
+    },
+    {
+      "name": "Abonnementen",
+      "type": "expense",
+      "color": "#06b6d4",
+      "keywords": ["netflix", "spotify", "disney+", "youtube premium", "amazon prime", "apple", "microsoft", "google", "dropbox", "gym", "sportschool", "fitness"]
+    },
+    {
+      "name": "Telefoon & Internet",
+      "type": "expense",
+      "color": "#0891b2",
+      "keywords": ["vodafone", "t-mobile", "kpn", "telenet", "proximus", "simyo", "tele2", "odido", "xs4all", "ziggo", "internet "]
+    },
+    {
+      "name": "Verzekeringen",
+      "type": "expense",
+      "color": "#64748b",
+      "keywords": ["verzekering", "insurance", "aegon", "centraal beheer", "nationale nederlanden", "zilveren kruis", "menzis", "cz ", "vgz ", "zorgverzekering"]
+    },
+    {
+      "name": "Gezondheidszorg",
+      "type": "expense",
+      "color": "#ec4899",
+      "keywords": ["apotheek", "huisarts", "tandarts", "ziekenhuis", "hospital", "dokter", "fysiotherapie", "optiek"]
+    },
+    {
+      "name": "Kleding",
+      "type": "expense",
+      "color": "#f43f5e",
+      "keywords": ["h&m", "zara", "primark", "uniqlo", "nike", "adidas", "the north face", "decathlon", "zalando", "wehkamp", "c&a", "pull&bear", "reserved"]
+    },
+    {
+      "name": "Wonen & Huis",
+      "type": "expense",
+      "color": "#84cc16",
+      "keywords": ["ikea", "gamma", "karwei", "praxis", "action ", "hema", "blokker", "coolblue", "mediamarkt", "bol.com", "woonexpress", "hornbach"]
+    },
+    {
+      "name": "Energie",
+      "type": "expense",
+      "color": "#eab308",
+      "keywords": ["nuon", "vattenfall", "eneco", "essent", "greenchoice", "energie ", "electrabel", "fluvius", "eandis"]
+    },
+    {
+      "name": "Vakantie & Reizen",
+      "type": "expense",
+      "color": "#14b8a6",
+      "keywords": ["booking.com", "airbnb", "hotels", "hotel ", "vliegticket", "ryanair", "transavia", "klm", "easyjet", "corendon", "tui ", "sunweb", "reisorganisatie"]
+    },
+    {
+      "name": "Vrije Tijd",
+      "type": "expense",
+      "color": "#f59e0b",
+      "keywords": ["bioscoop", "cinema", "theater", "museum", "concert", "ticketmaster", "eventbrite", "pathé", "vue ", "kinepolis"]
+    },
+    {
+      "name": "Belastingen",
+      "type": "expense",
+      "color": "#6b7280",
+      "keywords": ["belastingdienst", "gemeente ", "waterschapsbelasting", "ozb", "belasting", "tax ", "overheidsdienst"]
+    },
+    {
+      "name": "Sparen",
+      "type": "expense",
+      "color": "#3b82f6",
+      "keywords": ["spaarrekening", "savings"]
+    },
+    {
+      "name": "Beleggen",
+      "type": "expense",
+      "color": "#1d4ed8",
+      "keywords": ["degiro", "bux", "nemo", "trading212", "interactive brokers", "saxo", "binck", "belegg"]
+    },
+    {
+      "name": "Overig",
+      "type": "expense",
+      "color": "#9ca3af",
+      "keywords": []
+    }
+  ]
+}
