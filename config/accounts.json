@@ -1,0 +1,13 @@
+{
+  "_comment": "Define your accounts here. 'iban' links transactions to this account. 'type' is one of: checking, savings, investment, other. 'startBalance' is the balance at the start of the tracked period. Checking accounts will have their balance calculated from transactions.",
+  "accounts": [
+    {
+      "id": "checking-1",
+      "name": "Betaalrekening",
+      "type": "checking",
+      "iban": "",
+      "startBalance": 0,
+      "currency": "EUR"
+    }
+  ]
+}
